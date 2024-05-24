@@ -1,0 +1,183 @@
+@import '@angular-architects/paper-design/assets/scss/paper-dashboard.scss';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+input.ng-dirty.ng-invalid {
+  border-left: darkred 5px solid;
+}
+
+input.ng-dirty.ng-valid {
+  border-left: darkgreen 5px solid;
+}
+
+a {
+  cursor: pointer;
+}
+
+.status,
+.status:visited {
+  text-decoration: underline;
+  color: navy;
+}
+
+.status:hover {
+  text-decoration: underline;
+  color: darkgoldenrod;
+}
+
+.p40 {
+  padding: 20px;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.nav a,
+.nav a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: darkgoldenrod;
+}
+
+.main-panel {
+  height: 100%;
+  overflow: auto;
+}
+
+.nav-standalone {
+  ul.nav {
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+
+    li a {
+      display: flex;
+      margin-left: 30px;
+      flex-direction: row;
+      text-decoration: none;
+
+      i {
+        margin-right: 20px;
+      }
+    }
+
+  }
+
+  ul.sub-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+}
+
+.sidebar .nav,
+.nav {
+  .caret {
+    top: 20px;
+    border-width: 6px 6px 0 6px;
+    opacity: 0.5;
+  }
+
+  li.menu-open .caret {
+    transform: rotate(180deg);
+  }
+
+  li > a {
+    line-height: 30px;
+
+    &:not([href]) {
+      user-select: none;
+    }
+
+    > p {
+      font-size: 12px;
+    }
+
+    > i {
+      &.icon {
+        font-size: 24px;
+      }
+
+      &.icon-home {
+        @extend .nc-icon;
+        @extend .nc-bank;
+      }
+      &.icon-flight {
+        @extend .nc-icon;
+        @extend .nc-send;
+      }
+      &.icon-passenger {
+        @extend .nc-icon;
+        @extend .nc-single-02;
+      }
+      &.icon-booking {
+        @extend .nc-icon;
+        @extend .nc-zoom-split;
+      }
+      &.icon-luggage {
+        @extend .nc-icon;
+        @extend .nc-bag-16;
+      }
+      &.icon-checkin {
+        @extend .nc-icon;
+        @extend .nc-tag-content;
+      }
+      &.icon-boarding {
+        @extend .nc-icon;
+        @extend .nc-compass-05;
+      }
+      &.icon-report-loss {
+        @extend .nc-icon;
+        @extend .nc-paper;
+      }
+      &.icon-mobile {
+        @extend .nc-icon;
+        @extend .nc-mobile;
+      }
+      &.icon-departures {
+        @extend .nc-icon;
+        @extend .nc-cloud-upload-94;
+      }
+    }
+  }
+
+  &.sub-nav {
+    margin-bottom: 30px;
+
+    li {
+      &.active {
+        > a::before, > a::after {
+          top: -4px;
+        }
+      }
+
+      > a {
+        line-height: 16px;
+
+        > p {
+          font-size: 12px;
+        }
+
+        > i {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+

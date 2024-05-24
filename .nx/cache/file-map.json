@@ -1,0 +1,534 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.2.1",
+  "deps": {
+    "@angular-architects/module-federation": "^17.0.8",
+    "@angular-architects/module-federation-tools": "^17.0.8",
+    "@angular-architects/native-federation": "^17.1.7",
+    "@angular-architects/ngrx-toolkit": "^0.1.2",
+    "@angular-architects/paper-design": "^1.0.4",
+    "@angular/animations": "^17.3.0",
+    "@angular/cdk": "^17.3.2",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/material": "^17.3.2",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/platform-server": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "@angular/ssr": "^17.3.2",
+    "@ngrx/component": "^17.1.1",
+    "@ngrx/component-store": "^17.1.1",
+    "@ngrx/effects": "^17.1.1",
+    "@ngrx/entity": "^17.1.1",
+    "@ngrx/router-store": "^17.1.1",
+    "@ngrx/signals": "^17.1.1",
+    "@ngrx/store": "^17.1.1",
+    "angular-oauth2-oidc": "^17.0.2",
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3",
+    "@angular-architects/ddd": "^17.0.3",
+    "@angular-devkit/build-angular": "^17.3.2",
+    "@angular/cli": "^17.3.2",
+    "@angular/compiler-cli": "^17.3.0",
+    "@ngrx/schematics": "^17.1.1",
+    "@ngrx/store-devtools": "^17.1.1",
+    "@softarc/eslint-plugin-sheriff": "^0.14.5",
+    "@softarc/sheriff-core": "^0.14.5",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ngx-build-plus": "^17.0.0",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "flight": [
+        {
+          "file": "projects/flight/server.ts",
+          "hash": "12595752495452639528"
+        },
+        {
+          "file": "projects/flight/src/app/app.component.ts",
+          "hash": "5812981157687633170"
+        },
+        {
+          "file": "projects/flight/src/app/app.config.server copy.ts",
+          "hash": "15184490126418035619"
+        },
+        {
+          "file": "projects/flight/src/app/app.config.server.ts",
+          "hash": "15184490126418035619"
+        },
+        {
+          "file": "projects/flight/src/app/app.config.ts",
+          "hash": "3055971577205143510"
+        },
+        {
+          "file": "projects/flight/src/app/app.routes.ts",
+          "hash": "10815681290223397500"
+        },
+        {
+          "file": "projects/flight/src/app/boarding/boarding.routes.ts",
+          "hash": "205024657405435057"
+        },
+        {
+          "file": "projects/flight/src/app/boarding/features/departure/departure.component.html",
+          "hash": "13412985632951007001"
+        },
+        {
+          "file": "projects/flight/src/app/boarding/features/departure/departure.component.ts",
+          "hash": "5533916880204667462"
+        },
+        {
+          "file": "projects/flight/src/app/boarding/index.ts",
+          "hash": "5704465904420817443"
+        },
+        {
+          "file": "projects/flight/src/app/booking/booking.routes.ts",
+          "hash": "3770775244176868939"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/actions.ts",
+          "hash": "7664335661319353665"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/model.ts",
+          "hash": "2066381362828506026"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/ngrx-signals/tickets.signal.store.ts",
+          "hash": "2782988609921924100"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/ngrx-store/effects.ts",
+          "hash": "16282830560864629508"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/ngrx-store/facade.ts",
+          "hash": "1505011032467141235"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/ngrx-store/index.ts",
+          "hash": "18232154211779300123"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/ngrx-store/reducer.ts",
+          "hash": "6999955101193623657"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/+state/ngrx-store/selectors.ts",
+          "hash": "11147006786323522368"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/features/flight-booking/flight-booking.component.ts",
+          "hash": "430987104493271548"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/features/flight-edit/flight-edit.component.html",
+          "hash": "11363482710543096441"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/features/flight-edit/flight-edit.component.ts",
+          "hash": "2747342045160035036"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/features/flight-search/flight-search.component.html",
+          "hash": "6052553383583146105"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/features/flight-search/flight-search.component.ts",
+          "hash": "6492427649030522305"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/flight.routes.ts",
+          "hash": "14175105928252129117"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/index.ts",
+          "hash": "2054076437927308581"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/logic/data-access/flight.resolver.ts",
+          "hash": "4337018149736958549"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/logic/data-access/flight.service.ts",
+          "hash": "17143505843572414587"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/logic/model/basket.ts",
+          "hash": "7716462117258997271"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/logic/model/flight-filter.ts",
+          "hash": "2150502127123943317"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/logic/model/flight-ticket.ts",
+          "hash": "7259277721192962956"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/logic/model/flight.ts",
+          "hash": "5258530917489039123"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/ui/flight-card/flight-card.component.ts",
+          "hash": "7741131681988341076"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/ui/flight-filter/flight-filter.component.html",
+          "hash": "7947930887689397268"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/ui/flight-filter/flight-filter.component.ts",
+          "hash": "14298184762519253450"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/ui/flight-filter/flight-filter.store.ts",
+          "hash": "1734027925094112955"
+        },
+        {
+          "file": "projects/flight/src/app/booking/flight/ui/flight-filter/reactive-context.util.ts",
+          "hash": "10054454644530847326"
+        },
+        {
+          "file": "projects/flight/src/app/booking/index.ts",
+          "hash": "4207618104451587912"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/+state/passenger.signal.store.ts",
+          "hash": "644599662607428218"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/features/passenger-edit/passenger-edit.component.html",
+          "hash": "11473220521419408159"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/features/passenger-edit/passenger-edit.component.ts",
+          "hash": "17794872942628085053"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/features/passenger-search/passenger-search.component.html",
+          "hash": "6991037391730708292"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/features/passenger-search/passenger-search.component.ts",
+          "hash": "528958151036998294"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/index.ts",
+          "hash": "15624796897423980470"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/logic/data-access/passenger.service.ts",
+          "hash": "42347617570966347"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/logic/model/passenger.ts",
+          "hash": "5249580477985941289"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/passenger.routes.ts",
+          "hash": "4529295344641696347"
+        },
+        {
+          "file": "projects/flight/src/app/booking/passenger/util/validation/passenger-status.validator.ts",
+          "hash": "12880537982211951024"
+        },
+        {
+          "file": "projects/flight/src/app/core/features/home/home.component.ts",
+          "hash": "17569217329278953408"
+        },
+        {
+          "file": "projects/flight/src/app/core/index.ts",
+          "hash": "10108497075126993278"
+        },
+        {
+          "file": "projects/flight/src/app/core/ui/headerbar/headerbar.component.html",
+          "hash": "15230354473243748838"
+        },
+        {
+          "file": "projects/flight/src/app/core/ui/headerbar/headerbar.component.ts",
+          "hash": "516516761607764783"
+        },
+        {
+          "file": "projects/flight/src/app/core/ui/navigation/navigation.component.html",
+          "hash": "15356818470932571272"
+        },
+        {
+          "file": "projects/flight/src/app/core/ui/navigation/navigation.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "projects/flight/src/app/core/ui/navigation/navigation.component.spec.ts",
+          "hash": "16967727797320594134"
+        },
+        {
+          "file": "projects/flight/src/app/core/ui/navigation/navigation.component.ts",
+          "hash": "4057622323295143958"
+        },
+        {
+          "file": "projects/flight/src/app/core/ui/sidebar/sidebar.component.ts",
+          "hash": "1309842264687539121"
+        },
+        {
+          "file": "projects/flight/src/app/shared/+state/router.feature.ts",
+          "hash": "6336078841822257670"
+        },
+        {
+          "file": "projects/flight/src/app/shared/cd-visualizer/cd-visualizer.ts",
+          "hash": "7974798802595644973"
+        },
+        {
+          "file": "projects/flight/src/app/shared/ngrx-signals-redux/create-redux.ts",
+          "hash": "16929084863591428027"
+        },
+        {
+          "file": "projects/flight/src/app/shared/ngrx-signals-redux/index.ts",
+          "hash": "10566389201181912077"
+        },
+        {
+          "file": "projects/flight/src/app/shared/ngrx-signals-redux/model.ts",
+          "hash": "2682603424103221381"
+        },
+        {
+          "file": "projects/flight/src/app/shared/ngrx-signals-redux/rxjs-interop/index.ts",
+          "hash": "4274417290213953733"
+        },
+        {
+          "file": "projects/flight/src/app/shared/ngrx-signals-redux/rxjs-interop/redux-method.ts",
+          "hash": "16383980806753676671"
+        },
+        {
+          "file": "projects/flight/src/app/shared/ngrx-signals-redux/signal-redux-store.ts",
+          "hash": "15033431472745329534"
+        },
+        {
+          "file": "projects/flight/src/app/shared/ngrx-signals-redux/util.ts",
+          "hash": "4956925381633560831"
+        },
+        {
+          "file": "projects/flight/src/app/shared/redux-devtools/devtools-connect.ts",
+          "hash": "6243953474577847240"
+        },
+        {
+          "file": "projects/flight/src/app/shared/redux-devtools/devtools-core.ts",
+          "hash": "14500587519641873118"
+        },
+        {
+          "file": "projects/flight/src/app/shared/redux-devtools/index.ts",
+          "hash": "17072466654638213438"
+        },
+        {
+          "file": "projects/flight/src/app/shared/redux-devtools/model.ts",
+          "hash": "10145585937666969781"
+        },
+        {
+          "file": "projects/flight/src/app/shared/redux-devtools/util.ts",
+          "hash": "12659929073540767020"
+        },
+        {
+          "file": "projects/flight/src/app/shared/redux-devtools/with-devtools.ts",
+          "hash": "1056384852902601944"
+        },
+        {
+          "file": "projects/flight/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "projects/flight/src/assets/paper-design/angular_gradient.png",
+          "hash": "7957953091301352892"
+        },
+        {
+          "file": "projects/flight/src/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "projects/flight/src/index.html",
+          "hash": "2502539568303178004"
+        },
+        {
+          "file": "projects/flight/src/main.server.ts",
+          "hash": "9257623809215978365"
+        },
+        {
+          "file": "projects/flight/src/main.ts",
+          "hash": "4169901790405087765"
+        },
+        {
+          "file": "projects/flight/src/styles.scss",
+          "hash": "883729811510135740"
+        },
+        {
+          "file": "projects/flight/tsconfig.app.json",
+          "hash": "15211542768575683844"
+        },
+        {
+          "file": "projects/flight/tsconfig.spec.json",
+          "hash": "13338856497352866793"
+        }
+      ],
+      "flight-legacy": [
+        {
+          "file": "projects/flight-legacy/server.ts",
+          "hash": "8592206898694825127"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/app-routing.module.ts",
+          "hash": "15638978050551223935"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/app.component.html",
+          "hash": "11358065693346708359"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/app.component.spec.ts",
+          "hash": "6846464615841190427"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/app.component.ts",
+          "hash": "10032996754562109575"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/app.module.server.ts",
+          "hash": "442297493173287456"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/app.module.ts",
+          "hash": "14904235179944175318"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/booking/booking-routing.module.ts",
+          "hash": "4039629510786336519"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/booking/booking.component.html",
+          "hash": "9834385378224645372"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/booking/booking.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/booking/booking.component.spec.ts",
+          "hash": "10356484746725258911"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/booking/booking.component.ts",
+          "hash": "15284511648524102300"
+        },
+        {
+          "file": "projects/flight-legacy/src/app/booking/booking.module.ts",
+          "hash": "5379060393375364530"
+        },
+        {
+          "file": "projects/flight-legacy/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "projects/flight-legacy/src/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "projects/flight-legacy/src/index.html",
+          "hash": "6388552632012954397"
+        },
+        {
+          "file": "projects/flight-legacy/src/main.server.ts",
+          "hash": "5318678666866329704"
+        },
+        {
+          "file": "projects/flight-legacy/src/main.ts",
+          "hash": "9374417435436826166"
+        },
+        {
+          "file": "projects/flight-legacy/src/styles.scss",
+          "hash": "2917954890128038984"
+        },
+        {
+          "file": "projects/flight-legacy/tsconfig.app.json",
+          "hash": "15211542768575683844"
+        },
+        {
+          "file": "projects/flight-legacy/tsconfig.spec.json",
+          "hash": "13338856497352866793"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6173469676133756775"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "16432215551666450884"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "15200205142396958304"
+      },
+      {
+        "file": "angular.json",
+        "hash": "2688371429665162391"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4284517835972247935"
+      },
+      {
+        "file": "package.json",
+        "hash": "15393843832317136610"
+      },
+      {
+        "file": "server.ts",
+        "hash": "12595752495452639528"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "2442507913137902887"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "3200458784466797971"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "5122839733245053999"
+      }
+    ]
+  }
+}

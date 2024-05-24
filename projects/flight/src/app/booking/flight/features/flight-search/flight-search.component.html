@@ -1,0 +1,55 @@
+<div class="card">
+  <div class="card-header">
+    <h2 class="card-title">Flight Search</h2>
+  </div>
+
+  <div class="card-body">
+
+    <app-flight-filter
+        [filter]="filter()"
+        (searchTrigger)="search($event)"
+      >
+        @if (flights().length) {
+          <div class="flight-filter-info">
+            {{ flights().length }} flights found!
+          </div>
+        }
+        @if (flights().length) {
+          <button (click)="reset()"
+            class="btn btn-default flight-filter-button"
+          >Reset</button>
+        }
+      </app-flight-filter>
+
+  </div>
+</div>
+
+<div class="row">
+  @for (flight of flights(); track flight.id) {
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <app-flight-card
+        [item]="flight"
+        [(selected)]="basket()[flight.id]"
+        (delayTrigger)="delay($event)"
+      />
+    </div>
+  }
+</div>
+
+@defer (on timer(5000)) {
+  <div class="card">
+    <div class="card-header">
+      <h2 class="card-title">Basket</h2>
+    </div>
+
+    <div class="card-body">
+      <pre>{{ basket() | json }}</pre>
+    </div>
+  </div>
+} @placeholder {
+  <p>
+    Basket not available yet.<br>
+    Shows up after 5 seconds.
+  </p>
+}
+

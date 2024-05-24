@@ -17,6 +17,9 @@ import { injectUserFullname } from '../../../shared/config/config.provide';
           <li>Dependency Injection</li>
           <li>Directives</li>
         </ul>
+        <div>
+          <img src="assets/repo-qr.png">
+        </div>
       </div>
     </div>
 

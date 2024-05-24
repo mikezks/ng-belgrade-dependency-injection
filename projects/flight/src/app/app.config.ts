@@ -22,5 +22,8 @@ export const appConfig: ApplicationConfig = {
     provideEffects(),
     provideRouterFeature(),
     provideConfig('./assets/config.json'),
+    provideNavigationState([
+      'home', 'booking', 'checkin'
+    ])
   ]
 };

@@ -16,6 +16,14 @@ import { UiNavigationMenu, provideNavigationState } from '@flight-demo/ui-common
     provideNavigationState(['luggage'])
   ],
   template: `
+    <ui-navigation-menu
+      class="nav-standalone"
+    />
+    <ui-navigation-menu
+      class="nav-standalone"
+      [navItems]="['boarding']"
+    />
+
     <div>
       <router-outlet></router-outlet>
     </div>
